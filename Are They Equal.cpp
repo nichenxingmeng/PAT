@@ -46,7 +46,7 @@ string science(string A, int n){
 
 		string ANS = "0.";
 		if(A.length() - cnt >= n){
-			ANS.insert(2, A.substr(cnt, n + cnt));
+			ANS.insert(2, A.substr(cnt, n));
 		} else{
 			ANS.insert(2, A.substr(cnt, A.length()));
 			for(int i = 0; i < n - A.length() + cnt; i++){
