@@ -15,9 +15,10 @@ bool cmp(mooncake a, mooncake b){
 }
 
 int main(){
-	int n, need;
+	int n;
+	double need;
 	double ans = 0;
-	scanf("%d %d", &n, &need);
+	scanf("%d %lf", &n, &need);
 	for(int i = 0; i < n; i++){
 		scanf("%lf", &cake[i].weight);
 	}
